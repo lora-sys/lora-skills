@@ -21,15 +21,28 @@
 
 ## 下载
 
-直接下载zip [lora-skill.zip](https://github.com/lora-sys/lora-skills/raw/main/lora-skill.zip)
+- **Marvis专用版**：[lora-skill.zip](https://github.com/lora-sys/lora-skills/raw/main/lora-skill.zip)（含 meta.json / _meta.json）
+- **通用版**：[lora-skill-universal.zip](https://github.com/lora-sys/lora-skills/raw/main/lora-skill-universal.zip)（无平台依赖，适配所有AI助手）
+
+## 版本说明
+
+| 版本 | 文件 | 平台依赖 | 适用场景 |
+|------|------|----------|----------|
+| **Marvis版** | SKILL.md + meta.json + _meta.json + references | 仅Marvis | 在Marvis中完整使用 |
+| **通用版** | SKILL.md + references | 无 | Claude Code、Cursor、其他AI助手 |
 
 ## 使用方式
 
+### Marvis版
 1. 下载 `lora-skill.zip` 解压
 2. 通过Marvis技能管理面板导入
 3. 如果Marvis不支持直接导入，将解压后的文件放入Marvis的 `skills/market/lora/` 目录，确保 SKILL.md 权限为 644（可读）
 4. 触发词：`lora`、`lora思维`、`lora模式`、`lora视角`、`lora决策`、`lora对话`、`lora拷问`
-5. 激活后AI会模拟我的思考方式和对话风格
+
+### 通用版
+1. 下载 `lora-skill-universal.zip` 解压
+2. 将 `SKILL.md` 放到你所用AI助手的skills目录
+3. 触发词（取决于平台配置）：`用lora的视角`、`lora会怎么看`、`lora模式`
 
 ## GitHub
 
