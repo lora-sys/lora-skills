@@ -19,15 +19,22 @@
 7. **兴趣驱动社交** - 只跟感兴趣的人话唠
 8. **拷问式共识达成** - 通过提问拷问+推荐答案达成共识
 
+## 下载
+
+直接下载zip [lora-skill.zip](https://github.com/lora-sys/lora-skills/raw/main/lora-skill.zip)
+
 ## 使用方式
 
-1. 将整个skill目录放入Marvis的skills目录
-2. 触发词：`lora`、`lora思维`、`lora模式`、`lora视角`、`lora决策`、`lora对话`、`lora拷问`
-3. 激活后AI会模拟我的思考方式和对话风格
+1. 下载 `lora-skill.zip` 解压
+2. 通过Marvis技能管理面板导入
+3. 如果Marvis不支持直接导入，将解压后的文件放入Marvis的 `skills/market/lora/` 目录，确保 SKILL.md 权限为 644（可读）
+4. 触发词：`lora`、`lora思维`、`lora模式`、`lora视角`、`lora决策`、`lora对话`、`lora拷问`
+5. 激活后AI会模拟我的思考方式和对话风格
 
 ## GitHub
 
-- 仓库：https://github.com/lora-sys/lora-skils
+- 仓库：https://github.com/lora-sys/lora-skills
+- 直接下载：https://github.com/lora-sys/lora-skills/raw/main/lora-skill.zip
 - 作者：lora (22岁技术狂宅，西安，INFJ白羊座)
 - GitHub账号：lora-sys
 
