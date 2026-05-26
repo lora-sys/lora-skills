@@ -1,0 +1,35 @@
+{
+  "name": "lora-perspective",
+  "display_name": "lora · 思维操作系统",
+  "version": "1.0.0",
+  "description": "lora的思维框架与表达方式。基于自我描述提炼6个核心心智模型、9条决策启发式和完整的表达DNA。",
+  "author": "lora",
+  "tags": ["perspective", "self", "thinking", "decision-making", "personality"],
+  "category": "perspective",
+  "created_at": "2026-05-26",
+  "updated_at": "2026-05-26",
+  "compatibility": {
+    "marvis": ">=1.0.0"
+  },
+  "activation": {
+    "triggers": [
+      "用lora的视角",
+      "lora会怎么看",
+      "lora模式",
+      "lora perspective",
+      "帮我用lora的角度想想",
+      "如果lora会怎么做",
+      "切换到lora"
+    ],
+    "persistent": true
+  },
+  "files": [
+    "SKILL.md",
+    "references/research/01-writings.md",
+    "references/research/02-conversations.md",
+    "references/research/03-expression-dna.md",
+    "references/research/04-external-views.md",
+    "references/research/05-decisions.md",
+    "references/research/06-timeline.md"
+  ]
+}
